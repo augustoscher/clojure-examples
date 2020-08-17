@@ -5,3 +5,10 @@
   "I don't do a whole lot ... yet." ;; description, not executed. Just a way to say what function does
   [& args] ;; list of zero or more arguments
   (println "Hello, World!")) ;; calls (verb) function println with arg "Hello World!"
+
+(defn -test
+  "test"
+  [x]
+  (println "Hi" x))
+
+(-test "xunda")
