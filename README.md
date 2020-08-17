@@ -21,8 +21,24 @@ lein new app tutorial
 cd tutoral
 ```
 
-3. Run app
+### Running
+
+Running app from terminal
 
 ```bash
 lein run
+```
+
+### REPL
+
+1. Run REPL
+
+```bash
+lein repl
+```
+
+2. Executing function
+
+```bash
+(-main)
 ```
