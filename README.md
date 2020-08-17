@@ -42,3 +42,11 @@ lein repl
 ```bash
 (-main)
 ```
+
+3. Running commands:
+
+```bash
+(println "Hello World!")
+
+(+ 2 3)
+```
