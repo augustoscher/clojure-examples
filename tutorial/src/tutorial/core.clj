@@ -11,4 +11,4 @@
   [x]
   (println "Hi" x))
 
-(-test "xunda")
+(-test "xunda") ;; Hi xunda
