@@ -1,27 +1,6 @@
 # tutorial
 
-To run with REPL:
 
-Enter on project directory
-```bash
-cd tutorial
-```
-
-Run REPL
-```bash
-lein repl
-```
-
-Call main function
-```clojure
-(-main)
-```
-
-Other functions
-```clojure
-(+ 2 3)
-(print "sdasd")
-```
 
 ## Installation
 
