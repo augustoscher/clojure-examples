@@ -75,22 +75,57 @@ lein run
 
 ### REPL
 
-1. Run REPL
+#### 1. Run REPL
 
 ```bash
 lein repl
 ```
 
-2. Executing function
+#### 2. Executing function
 
 ```bash
 (-main)
 ```
 
-3. Running commands:
+####  3. Running commands:
 
 ```bash
 (println "Hello World!")
 
 (+ 2 3)
 ```
+
+####  4. Running project files in REPL
+
+Enter on project directory
+```bash
+cd tutorial
+```
+
+Run REPL
+```bash
+lein repl
+```
+
+Call main function
+```clojure
+(-main)
+```
+
+#### 5. Calling functions from another file
+
+Load other file on REPL
+```clojure
+(load-file "src/tutorial/functions.clj")
+```
+
+Change the namespace in REPL:
+```clojure
+(in-ns 'tutorial.functions)
+```
+
+Call main function from `tutorial/functions.clj`
+```clojure
+(-main)
+```
+
