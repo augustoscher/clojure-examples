@@ -31,3 +31,25 @@
 (defn increment_value ;; calling (increment_value [1 2 3 4 5])
   [v]
   (map increment v))
+
+;; def is also used to define variables
+(defn DataTypes []
+  (def a 1)    ;; integer
+  (def b 1.25) ;; float
+  (def c 1.25e-12) ;; float cientific notation
+  (def d 0xfbfc) ;; hex values (print decimal 64508)
+  (def e nil) ;; nil value
+  (def f true) ;; boolean
+  (def g "string") ;; string
+  (def h 'hello) ;; keyword - symbol 
+
+  (println a)
+  (println b)
+  (println c)
+  (println d)
+  (println e)
+  (println f)
+  (println g)
+  (println h))
+
+(DataTypes)
