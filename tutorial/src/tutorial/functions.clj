@@ -15,7 +15,7 @@
 ;; def keyword assign a function to the main
 
 ;; Anonim function
-#(println "Hello" %)
+(println "Hello" %)
 
 ;; calling it
 (#(println "Hello" %1 %2) "Augusto" "Scher")

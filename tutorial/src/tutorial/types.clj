@@ -38,6 +38,32 @@
 ;; Set of a differente type os values
 ;; They're immutable
 ;; Efficient and fast
+(defn printSet []
+  (def s #{1 42 1.3 "Test" 'Symbol})
+  (println "Set: " s))
 
-(defn testingSet []
-  (#{1 43 1.5 "Nice" 'Cat}))
+(printSet)
+
+
+;; MAP
+;; Key value data structure
+;; They're immutable
+;; Efficient
+(defn printMap []
+  (def m {:Key1 10.000, :key2 "xunda"})
+  (println "Map: " m))
+
+(printMap)
+
+
+;; VECTORS (ARRAYS)
+;; Indexed by position
+;; They're immutable
+;; Efficient
+(defn printVec []
+  (def v [1 "two" 'three {:k1 "x" :k2 "y"}])
+  (println "Vec: " v)
+  (println "Vec 3pos: " (get v 3))
+  )
+
+(printVec)
