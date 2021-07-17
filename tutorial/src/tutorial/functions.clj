@@ -33,6 +33,8 @@
   (map increment v))
 
 ;; def is also used to define variables
+;; variables are imutable, once assigned, we could not reassign
+;; variable are caseSensitive
 (defn DataTypes []
   (def a 1)    ;; integer
   (def b 1.25) ;; float
@@ -43,6 +45,9 @@
   (def g "string") ;; string
   (def h 'hello) ;; keyword - symbol 
 
+  (def status false)
+  (def STATUS true)
+
   (println a)
   (println b)
   (println c)
@@ -50,6 +55,9 @@
   (println e)
   (println f)
   (println g)
-  (println h))
+  (println h)
+  (println status)
+  (println STATUS)
+  )
 
 (DataTypes)
