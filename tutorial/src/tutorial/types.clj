@@ -63,7 +63,18 @@
 (defn printVec []
   (def v [1 "two" 'three {:k1 "x" :k2 "y"}])
   (println "Vec: " v)
-  (println "Vec 3pos: " (get v 3))
-  )
+  (println "Vec 3pos: " (get v 3)))
 
 (printVec)
+
+
+;; LIST
+;; Very important because they make up de code
+;; Everything in clojure is made with list
+;; They're immutable
+;; Efficient
+(defn printList []
+  (def l (list* 1 ["two" 'three]))
+  (println "List: " l))
+
+(printList)
