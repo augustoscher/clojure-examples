@@ -24,6 +24,7 @@
   ))
 (testIfDo)
 
+
 (defn testNestedIf
   "Nested if conditions in  clojure"
   []
@@ -33,3 +34,31 @@
     (println "False")
   ))
 (testNestedIf)
+
+
+(defn testCase
+  "case in  clojure"
+  [pet]
+  (println "\nCase")
+  (case pet
+    "cat" (println "i have a cat")
+    "dog" (println "i have a dog")
+    "fish" (println "i have a fish")))
+(testCase "cat")
+(testCase "dog")
+(testCase "fish")
+
+
+(defn testCond
+  "cond in  clojure"
+  [amount]
+  (println "\nCond")
+  (cond
+    (<= amount 2) (println "<= 2")
+    (<= amount 10) (println "<= 10")
+    (<= amount 100) (println "<= 100")
+    :else (println "> 100")))
+(testCond 101)
+(testCond 100)
+(testCond 10)
+(testCond 2)
