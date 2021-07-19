@@ -23,3 +23,13 @@
         (println "Not Equal - Second statement"))
   ))
 (testIfDo)
+
+(defn testNestedIf
+  "Nested if conditions in  clojure"
+  []
+  (println "\nNested IF Conditions")
+  (if (and (= 5 5) (or (= 2 2) (not true)))
+    (println "True")
+    (println "False")
+  ))
+(testNestedIf)
