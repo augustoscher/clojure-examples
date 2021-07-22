@@ -11,3 +11,13 @@
       (recur (inc value))) ;; return to loop statement with incremented value
   ))
 (testLoop) ;; will print 0 to 9
+
+
+(defn testDoTimes
+  "DoTimes in clojure"
+  []
+  (println "\nDoTimes")
+  (dotimes [times 10]
+    (println times)))
+(testDoTimes) ;; will print 0 to 9
+
