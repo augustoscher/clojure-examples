@@ -128,4 +128,3 @@ Call main function from `tutorial/functions.clj`
 ```clojure
 (-main)
 ```
-
