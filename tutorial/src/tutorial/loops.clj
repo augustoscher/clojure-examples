@@ -33,3 +33,13 @@
       (swap! i inc))) 
 )
 (testWhileDo 12) ;; will print 0 to 11
+
+
+(defn testDoSeq
+  "DoSeq in clojure"
+  [seq] ;; receive sequence
+  (println "\nDoSeq")
+  (doseq [i seq]
+    (println (inc i)))
+)
+(testDoSeq [1 2 3 4 5]) ;; will print 2 to 6
