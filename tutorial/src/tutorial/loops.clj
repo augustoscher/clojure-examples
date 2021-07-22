@@ -21,3 +21,15 @@
     (println times)))
 (testDoTimes) ;; will print 0 to 9
 
+
+(defn testWhileDo
+  "WhileDo in clojure"
+  [times]
+  (println "\nWhileDo")
+  (def i (atom 0)) ;; define i atom with zero. Atom is a variable that we can change de value of. (not immutable var)
+  (while (< @i times) ;; while 0 < parameter
+    (do
+      (println @i)
+      (swap! i inc))) 
+)
+(testWhileDo 12) ;; will print 0 to 11
