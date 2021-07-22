@@ -10,4 +10,4 @@
       (println value)
       (recur (inc value))) ;; return to loop statement with incremented value
   ))
-(testLoop) 
+(testLoop) ;; will print 0 to 9
