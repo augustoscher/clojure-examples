@@ -14,5 +14,4 @@
   (let [{a 'name b 'lastname} myMap] (println a b))
   (let [{a 'name b 'lastname c 'test} myMap] (println a b c)) ;; with inexisting value
   )
-
 (testDestructuring)
