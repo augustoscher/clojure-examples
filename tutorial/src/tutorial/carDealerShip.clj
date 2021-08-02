@@ -1,3 +1,6 @@
+(ns tutorial.carDealerShip
+  (:gen-class))
+
 ;; CODE CHALLENGE
 
 (defn isCodeValid
