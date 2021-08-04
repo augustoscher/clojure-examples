@@ -1,4 +1,4 @@
-(ns tutorial.agent
+(ns tutorial.agents
   (:gen-class))
 
 ;; Agents are like atoms, but in async mode
