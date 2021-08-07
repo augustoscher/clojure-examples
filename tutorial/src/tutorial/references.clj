@@ -4,7 +4,5 @@
 (defn testReferences
   []
   (println "\nReferences in clojure")
-  
 )
-
 (testReferences)
